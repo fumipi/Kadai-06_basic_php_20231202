@@ -34,4 +34,4 @@ file_put_contents('./data/data.txt', $data, FILE_APPEND);
     <button  class = returnTop><a href="post.php">フォームに戻る</a></button>
 </body>
 
-</script>
+</html>
