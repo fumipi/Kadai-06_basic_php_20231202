@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label, form input[type="text"], form input[type="email"], form input[type="radio"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"], form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="radio"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: auto;
+    display: inline-block;
+}
+
+form input[name = "sex"] {
+    margin-bottom: 32px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0 20px;
+    text-decoration: none;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 200px;
+    margin: 10px auto; 
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.readSummary {
+    background-color: #007bff;
+    color: white;
+}
+
+.readSummary:hover {
+    background-color: #0056b3;
+}
+
+.returnTop {
+    background-color: darkgray;
+    color: white;
+}
+
+.returnTop:hover {
+    background-color: gray;
+}
