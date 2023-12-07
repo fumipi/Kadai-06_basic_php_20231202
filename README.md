@@ -16,7 +16,7 @@
 
 ## 苦戦した点
 
-  - JavascriptとPHPの使い分けがよくわからず、局、サーバーとの通信はPHP、それ以外はJavascriptでやるようにしてみました。
+  - JavascriptとPHPの使い分けがよくわからず、結局、サーバーとの通信はPHP、それ以外はJavascriptでやるようにしてみました。
 
 ## 参考にした web サイトなど
 
