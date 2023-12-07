@@ -5,12 +5,12 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1,h2 {
     color: #333;
     text-align: center;
 }
 
-form {
+form, #prefectureChart, #languageChart {
     background-color: #fff;
     max-width: 500px;
     margin: 20px auto;
@@ -113,3 +113,15 @@ button a {
 .returnTop:hover {
     background-color: gray;
 }
+
+#raw_table {
+    margin: auto;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
